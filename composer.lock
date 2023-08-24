@@ -1,0 +1,105 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "424e16a8829cd26b86714eb48ab3ad04",
+    "packages": [
+        {
+            "name": "coffeecode/router",
+            "version": "1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robsonvleite/router.git",
+                "reference": "29f73e12351a116e9bbb3f695595777a09e18077"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robsonvleite/router/zipball/29f73e12351a116e9bbb3f695595777a09e18077",
+                "reference": "29f73e12351a116e9bbb3f695595777a09e18077",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CoffeeCode\\Router\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robson V. Leite",
+                    "email": "cursos@upinside.com.br",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A classic CoffeeCode Router is easy, fast and extremely uncomplicated. Create and manage your routes in minutes!",
+            "homepage": "http://www.upinside.com.br",
+            "keywords": [
+                "Coffeecode",
+                "route",
+                "router",
+                "routes",
+                "upinside"
+            ],
+            "support": {
+                "issues": "https://github.com/robsonvleite/router/issues",
+                "source": "https://github.com/robsonvleite/router/tree/1.0.8"
+            },
+            "time": "2021-03-21T18:45:16+00:00"
+        },
+        {
+            "name": "emagombe/mpesa-api",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emagombe/mpesa-api.git",
+                "reference": "efd8a3875ecfec79501e5f58013defda655e3c51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emagombe/mpesa-api/zipball/efd8a3875ecfec79501e5f58013defda655e3c51",
+                "reference": "efd8a3875ecfec79501e5f58013defda655e3c51",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "emagombe\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Edson Magombe",
+                    "email": "edson.patricio.39@gmail.com"
+                }
+            ],
+            "description": "API em PHP para M-PESA (Mo\u0000ambique)",
+            "support": {
+                "issues": "https://github.com/emagombe/mpesa-api/issues",
+                "source": "https://github.com/emagombe/mpesa-api/tree/v1.1.2"
+            },
+            "time": "2021-08-29T17:46:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
